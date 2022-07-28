@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="ID Buku"/>
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengarang : "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_pengarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengarang"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penerbit : "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_penerbit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penerbit"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun Terbit : "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_tahun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun Terbit"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

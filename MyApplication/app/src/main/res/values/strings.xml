@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="profil" tools:ignore="DuplicateDefinition">PROFIL</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="nama_desi_shofiana_sari">Nama : Desi Shofiana Sari</string>
+    <string name="no_hp_085866606827" tools:ignore="DuplicateDefinition">No. HP : 085866606827</string>
+    <string name="email_111201912276_mhs_dinus_ac_id">Email : 111201912276@mhs.dinus.ac.id</string>
+    <string name="nim_a11_2019_122776">NIM : A11.2019.122776</string>
+    <string name="profile">propil</string>
+    <string name="propil">PROFILE</string>
+    <string name="desi_shofiana_sari">Desi Shofiana Sari</string>
+    <string name="a11_2019_12276">A11.2019.12276</string>
+    <string name="_085866606827">085866606827</string>
+    <string name="_111201912276_mhs_dinus_ac_id">111201912276@mhs.dinus.ac.id</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="my_profile">My Profile</string>
+    <string name="desi_shofiana_sari">Desi Shofiana Sari</string>
+    <string name="desi_shofiana_sari">Desi Shofiana Sari</string>
+    <string name="email">Email</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="25dp"
+        android:background="@color/skyblue"
+        android:text="DESI SHOP"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/home"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="HomeAksi"
+            android:src="@drawable/ic_simple_isometric_store"
+            android:background="@drawable/lingkaran"
+            android:layout_height="125dp"
+            android:layout_width="125dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/beautycare"
+            android:layout_width="125dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="BeautyCareAksi"
+            android:background="@drawable/lingkaran"
+            android:src="@drawable/ic_conditioner"
+            android:layout_height="125dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:background="@drawable/lingkaran"
+            android:src="@drawable/ic_t_shirt_white"
+            android:layout_height="125dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:background="@drawable/lingkaran"
+            android:src="@drawable/ic_pants"
+            android:layout_height="125dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:src="@drawable/ic_tennis_shoes"
+            android:background="@drawable/lingkaran"
+            android:layout_height="125dp" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:layout_width="125dp"
+            android:background="@drawable/lingkaran"
+            android:src="@drawable/ic_school_bag"
+            android:layout_height="125dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="A11.2019.12276 - Desi Shofiana Sari"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

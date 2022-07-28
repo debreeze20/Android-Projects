@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="244dp"
+        android:background="#4682b4"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="147dp"
+            android:layout_height="182dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/_51fce28_5c95_43c0_a3cd_73bb70ee7afc_modified"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/my_profile"
+            android:textColor="#ffffff"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="483dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="245dp">
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/desi_shofiana_sari"
+            android:textColor="#448AFF"
+            android:textColorLink="#8DE67F"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:text="@string/a11_2019_12276"/>
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:text="@string/_111201912276_mhs_dinus_ac_id"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#4285f4"
+            android:onClick="linkemail"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/nohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:text="@string/_085866606827"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#25d366"
+            android:onClick="linkwa"
+            android:text="@string/whatsapp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Form_Input">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="ID Produk"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/idproduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Nama Produk"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Deskripsi Produk"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Pilih Kategori"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Harga"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/harga"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Stok"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/stok"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Kondisi"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/kondisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tblTambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"/>
+
+        <Button
+            android:id="@+id/tblTampil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampil"/>
+
+        <Button
+            android:id="@+id/tblHapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus"/>
+
+        <Button
+            android:id="@+id/tblEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"/>
+
+    </LinearLayout>
+
+</LinearLayout>

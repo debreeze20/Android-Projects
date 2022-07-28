@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".BeautyCareActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/aliceblue"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/lingkaran"
+            android:src="@drawable/ic_conditioner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="BEAUTY &amp; CARE"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="0dp"
+            />
+
+        <ImageView
+            android:id="@+id/akun"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/skyblue">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:clickable="true"
+            android:onClick="Search"
+            android:layout_gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:clickable="true"
+            android:onClick="Category"
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort"
+            android:clickable="true"
+            android:onClick="Sort"
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:clickable="true"
+            android:onClick="Filter"
+            android:textSize="20dp"
+            android:layout_gravity="center" />
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/basket"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:clickable="true"
+            android:onClick="Basket"
+            android:layout_gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_local_grocery_store_24" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/produk1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="Produk1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/aloevera" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/produk2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="Produk2"
+            android:src="@drawable/toner" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/produk3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="Produk3"
+            android:src="@drawable/nacific" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/produk4"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="Produk4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cream" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="A11.2019.12276 - Desi Shofiana Sari"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
